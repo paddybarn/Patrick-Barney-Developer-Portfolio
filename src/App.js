@@ -1,18 +1,15 @@
-import React from 'react';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import Project from './components/Project';
-import Footer from './components/Footer';
+import React from "react";
+import PageContainer from "./components/PageContainer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
-function App() {
-  return (
-<div>
-  <Header />
-  <Navigation />
-  <Project />
-  <Footer />
-</div>
-  )
-}
+const App = () => 
+  <main />;
+  <Header />;
+  <Navbar />;
+  <PageContainer />;
+  <Footer />;
+  <main />
 
 export default App;
