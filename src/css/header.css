@@ -1,14 +1,231 @@
-#header {
+/* #header {
     display: flex;
+    align-items: center;
     justify-content: center;
-}
+    width: 100%;
+    padding-bottom: 40px;
+    color:antiquewhite;
+} */
 
 #heading {
-    background-color: #6A7672;
-    height: 100px;
+    background-image: url('../img/banner.jpg');
+    background-size: 100%;
+    height: 150px;
+    width: 100%;
     padding-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 20px;
+    margin-bottom: 40px;
+    padding-left: 100px;
     display: flex;
     flex-wrap: wrap;
+    position: fixed;
 }
+
+/* @font-face {
+    font-family: 'Courier New', Courier, monospace;
+    src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+  } */
+  
+  .sign {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 50%;
+    height: 50%;
+    background-image: radial-gradient(
+      ellipse 50% 35% at 50% 50%,
+      #006666,
+      transparent
+    );
+    transform: translate(-50%, -50%);
+    letter-spacing: 2;
+    left: 47%;
+    top: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #e6ffff;
+    text-shadow: 0 0 0.6rem #e6ffff, 0 0 1.5rem #00ffff,
+      -0.2rem 0.1rem 1rem #00ffff, 0.2rem 0.1rem 1rem #00ffff,
+      0 -0.5rem 2rem #00b3b3, 0 0.5rem 3rem #00b3b3;
+    animation: shine 2s forwards, flicker 3s ease-in;
+  }
+  
+  @keyframes blink {
+    0%,
+    22%,
+    36%,
+    75% {
+      color: #e6ffff;
+      text-shadow: 0 0 0.6rem #e6ffff, 0 0 1.5rem #00ffff,
+        -0.2rem 0.1rem 1rem #00ffff, 0.2rem 0.1rem 1rem #00ffff,
+        0 -0.5rem 2rem #00b3b3, 0 0.5rem 3rem #00b3b3;
+    }
+    28%,
+    33% {
+      color: #00ffff;
+      text-shadow: none;
+    }
+    82%,
+    97% {
+      color: #00b3b3;
+      text-shadow: none;
+    }
+  }
+  
+  .flicker {
+    animation: shine 2s forwards, blink 3s 2s ease-in;
+  }
+
+  @media only screen and (max-width: 747px) {
+    .flicker {
+      display: none;
+    }
+  }
+  
+  .fast-flicker {
+    animation: shine 2s forwards, blink 10s 1s ease-in;
+  }
+  
+  @keyframes shine {
+    0% {
+      color: #006666;
+      text-shadow: none;
+    }
+    100% {
+      color: #e6ffff;
+      text-shadow: 0 0 0.6rem #e6ffff, 0 0 1.5rem #00ffff,
+        -0.2rem 0.1rem 1rem #00ffff, 0.2rem 0.1rem 1rem #00ffff,
+        0 -0.5rem 2rem #00b3b3, 0 0.5rem 3rem #00b3b3;
+    }
+  }
+  
+  @keyframes flicker {
+    from {
+      opacity: 1;
+    }
+  
+    4% {
+      opacity: 0.9;
+    }
+  
+    6% {
+      opacity: 0.85;
+    }
+  
+    8% {
+      opacity: 0.95;
+    }
+  
+    10% {
+      opacity: 0.9;
+    }
+  
+    11% {
+      opacity: 0.922;
+    }
+  
+    12% {
+      opacity: 0.9;
+    }
+  
+    14% {
+      opacity: 0.95;
+    }
+  
+    16% {
+      opacity: 0.98;
+    }
+  
+    17% {
+      opacity: 0.9;
+    }
+  
+    19% {
+      opacity: 0.93;
+    }
+  
+    20% {
+      opacity: 0.99;
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    26% {
+      opacity: 0.94;
+    }
+  
+    28% {
+      opacity: 0.98;
+    }
+  
+    37% {
+      opacity: 0.93;
+    }
+  
+    38% {
+      opacity: 0.5;
+    }
+  
+    39% {
+      opacity: 0.96;
+    }
+  
+    42% {
+      opacity: 1;
+    }
+  
+    44% {
+      opacity: 0.97;
+    }
+  
+    46% {
+      opacity: 0.94;
+    }
+  
+    56% {
+      opacity: 0.9;
+    }
+  
+    58% {
+      opacity: 0.9;
+    }
+  
+    60% {
+      opacity: 0.99;
+    }
+  
+    68% {
+      opacity: 1;
+    }
+  
+    70% {
+      opacity: 0.9;
+    }
+  
+    72% {
+      opacity: 0.95;
+    }
+  
+    93% {
+      opacity: 0.93;
+    }
+  
+    95% {
+      opacity: 0.95;
+    }
+  
+    97% {
+      opacity: 0.93;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  

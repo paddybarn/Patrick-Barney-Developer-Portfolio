@@ -9,12 +9,17 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './css/navbar.css';
 import './css/header.css'
-import './css/index.css'
+import './css/resume.css'
+import './css/contact.css'
+
+const myStyle = {
+  backgroundcolor: '#6A7672'
+}
 
 const App = () => {
   return (
     <Router>
-      <div className="flex-column justify-flex-start min-100-vh">
+      <div style={myStyle} className="flex-column justify-flex-start min-100-vh">
       <Navbar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
         <Header />
           <Routes>

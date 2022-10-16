@@ -1,0 +1,31 @@
+* {
+    justify-content: space-between;
+}
+#project1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    align-content:space-between;
+    height: 100%;
+}
+
+#paw {
+    padding-top: 20px;
+}
+#project2 {
+    padding-top: 20px;
+}
+
+#pawphoto {
+    height: 270px;
+    width: 400px;
+}
+
+#golfphoto {
+    height: 270px;
+    width: 400px;
+}
