@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8650dabe.chunk.css",
+    "main.js": "/static/js/main.88ce164c.chunk.js",
+    "main.js.map": "/static/js/main.88ce164c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dc0b4403.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dc0b4403.js.map",
+    "static/css/2.7cf1c5b2.chunk.css": "/static/css/2.7cf1c5b2.chunk.css",
+    "static/js/2.05d24f72.chunk.js": "/static/js/2.05d24f72.chunk.js",
+    "static/js/2.05d24f72.chunk.js.map": "/static/js/2.05d24f72.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7cf1c5b2.chunk.css.map": "/static/css/2.7cf1c5b2.chunk.css.map",
+    "static/css/main.8650dabe.chunk.css.map": "/static/css/main.8650dabe.chunk.css.map",
+    "static/js/2.05d24f72.chunk.js.LICENSE.txt": "/static/js/2.05d24f72.chunk.js.LICENSE.txt",
+    "static/media/header.css": "/static/media/banner.a153b8ba.jpg",
+    "static/media/golfFinder.4bce4cba.gif": "/static/media/golfFinder.4bce4cba.gif",
+    "static/media/pawFinder.062c2dfc.gif": "/static/media/pawFinder.062c2dfc.gif",
+    "static/media/resume1.86bcc9b1.jpg": "/static/media/resume1.86bcc9b1.jpg",
+    "static/media/resume2.a27d55c7.jpg": "/static/media/resume2.a27d55c7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc0b4403.js",
+    "static/css/2.7cf1c5b2.chunk.css",
+    "static/js/2.05d24f72.chunk.js",
+    "static/css/main.8650dabe.chunk.css",
+    "static/js/main.88ce164c.chunk.js"
+  ]
+}
