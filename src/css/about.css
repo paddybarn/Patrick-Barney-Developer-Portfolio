@@ -1,0 +1,10 @@
+#container {
+    padding-top: 200px;
+    
+}
+
+#text {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}

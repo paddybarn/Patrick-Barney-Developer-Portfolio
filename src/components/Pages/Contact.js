@@ -32,7 +32,7 @@ export default function ContactUs () {
                 <label>Email</label>
                 <input type="email" name="Email" />
                 <label>Message</label>
-                <textarea name="Message" />
+                <textarea id="message" name="Message" />
                 <input type="submit" value="Send" />
             
             </form>

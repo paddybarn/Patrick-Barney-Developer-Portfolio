@@ -5,12 +5,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 140px;
+    padding-top: 160px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 30px;
-    align-content:space-between;
+    justify-content: space-evenly;
     height: 100%;
+    background-color: #595959;
 }
 
 #paw {
@@ -21,11 +22,11 @@
 }
 
 #pawphoto {
-    height: 270px;
-    width: 400px;
+    height: 320px;
+    width: 470px;
 }
 
 #golfphoto {
-    height: 270px;
-    width: 400px;
+    height: 320px;
+    width: 470px;
 }

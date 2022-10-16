@@ -2,11 +2,16 @@
     padding-top: 500;
     display: flex;
     justify-content: center;
-    padding-top: 15%;
+    padding-top: 12%;
     padding-bottom: 15%;
 }
 
 #form {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;   
+}
+
+#message{
+    height: 75px;
 }

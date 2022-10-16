@@ -3,15 +3,13 @@ import React from 'react';
 
 export default function About() {
     return (
-      <div>
+      <div id="container">
         <h1>About Me</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        <p id="text">
+        Hi, my name is Patrick Barney.  Patrick, like the starfish.  Barney, like the dinosaur.  It's like I was meant to create animated displays.  
+        In a former life I worked in Marketing and Sales.  As well as most recently working as a travel ICU nurse.  My life experience is quite varied,
+        but it has invariably brought me to web development.  Please sample some of my applications below.  I look forward to hearing from you!
+        Follow the contact link for my information.  Thank you!
         </p>
       </div>
     );

@@ -9,7 +9,7 @@ export default function Projects() {
     <div id="project1">
         <div id="paw">
             <button id="My Work">
-                <a href="https://find-my-pets.herokuapp.com/">
+                <a href= "https://find-my-pets.herokuapp.com/">
                     <img id="pawphoto" src={Pawphoto} className="project1" alt="pawfinder website gif" />
                 </a>
             </button>
