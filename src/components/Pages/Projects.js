@@ -10,21 +10,21 @@ export default function Projects() {
         <div id="paw">
             <button id="My Work">
                 <a href= "https://find-my-pets.herokuapp.com/">
-                    <img id="pawphoto" src={Pawphoto} className="project1" alt="pawfinder website gif" />
+                    <img id="pawphoto" src={Pawphoto} className="project1" alt="pawfinder website" />
                 </a>
             </button>
         </div>
         <div id="project2">
             <button>
             <a href="https://michaelhill4.github.io/animated-memory/">
-                <img id="golfphoto" src={GolfFinder} className="project2" alt="golfcourse finder gif" />
+                <img id="golfphoto" src={GolfFinder} className="project2" alt="golfcourse finder" />
             </a>
             </button> 
         </div>
         <div id="project3">
             <button>
             <a href="https://infinite-meadow-47316.herokuapp.com/">
-                <img id="golfphoto" src={HospitalPhoto} className="project3" alt="hospital project photo" />
+                <img id="golfphoto" src={HospitalPhoto} className="project3" alt="hospital project" />
             </a>
             </button> 
         </div>
