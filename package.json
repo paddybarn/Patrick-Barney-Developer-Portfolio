@@ -20,7 +20,8 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4",
-    "yarn": "^1.22.19"
+    "yarn": "^1.22.19",
+    "eslint": "8.25.0"
   },
   "scripts": {
     "start": "react-scripts start",
