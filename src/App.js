@@ -6,7 +6,7 @@ import Projects from "./components/Pages/Projects";
 import Contact from "./components/Pages/Contact";
 import Resume from "./components/Pages/Resume";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './css/navbar.css';
 import './css/header.css'
 import './css/resume.css'
