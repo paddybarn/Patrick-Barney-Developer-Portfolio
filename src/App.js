@@ -6,7 +6,7 @@ import Projects from "./components/Pages/Projects";
 import Contact from "./components/Pages/Contact";
 import Resume from "./components/Pages/Resume";
 import Navbar from "./components/Navbar";
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './css/navbar.css';
 import './css/header.css'
 import './css/resume.css'
@@ -24,19 +24,19 @@ const App = () => {
         <Header />
           <Routes>
             <Route
-            path='/#/'
+            path='/'
             element={<About />}
             />
             <Route
-            path='/#/Projects'
+            path='/Projects'
             element={<Projects />}
             />
             <Route
-            path='/#/Contact'
+            path='/Contact'
             element={<Contact />}
             />
             <Route
-            path='/#/Resume'
+            path='/Resume'
             element={<Resume />}
             />
           </Routes>
