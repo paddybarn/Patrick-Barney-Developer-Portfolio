@@ -6,7 +6,7 @@ import Projects from "./components/Pages/Projects";
 import Contact from "./components/Pages/Contact";
 import Resume from "./components/Pages/Resume";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './css/navbar.css';
 import './css/header.css'
 import './css/resume.css'
@@ -18,7 +18,7 @@ const myStyle = {
 
 const App = () => {
   return (
-    <Router>
+    // <Router>
       <div style={myStyle} className="flex-column justify-flex-start min-100-vh">
       <Navbar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
         <Header />
@@ -42,7 +42,7 @@ const App = () => {
           </Routes>
         <Footer />
       </div>
-      </Router>
+      // </Router>
 );
 }
 export default App
