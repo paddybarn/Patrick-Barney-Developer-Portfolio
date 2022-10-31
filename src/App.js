@@ -25,7 +25,7 @@ const App = () => {
         <Header />
           <Routes>
             <Route
-            path='/'
+            path='/About'
             element={<About />}
             />
             <Route

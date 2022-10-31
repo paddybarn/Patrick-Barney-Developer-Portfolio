@@ -4,7 +4,7 @@ import { slide as Menu } from 'react-burger-menu';
 export default function Navbar() {
   return (
       <Menu>
-        <a className="menu-item" href="/">
+        <a className="menu-item" href="#/About">
           About
         </a>
         <a className="menu-item" href="#/Projects">
