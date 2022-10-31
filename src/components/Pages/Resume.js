@@ -1,6 +1,6 @@
 import React from 'react';
-import MyResume1 from '../../img/resume1.jpg'
-import MyResume2 from '../../img/resume2.jpg'
+import MyResume1 from '../../img/1resume.jpg'
+import MyResume2 from '../../img/Patrick Barney CS Resume1024_2.jpg'
 
 export default function Resume() {
     return(

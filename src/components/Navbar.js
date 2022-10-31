@@ -4,16 +4,16 @@ import { slide as Menu } from 'react-burger-menu';
 export default function Navbar() {
   return (
       <Menu>
-        <a className="menu-item" href="/#">
+        <a className="menu-item" href="/">
           About
         </a>
-        <a className="menu-item" href="/#/Projects">
+        <a className="menu-item" href="#/Projects">
           Projects 
         </a>
-        <a className="menu-item" href="/#/Contact">
+        <a className="menu-item" href="#/Contact">
           Contact
         </a>
-        <a className="menu-item" href="/#/Resume">
+        <a className="menu-item" href="#/Resume">
           Resume
         </a>
       </Menu>
